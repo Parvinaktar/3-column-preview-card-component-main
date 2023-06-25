@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;200;300;400;500;600;700;800;900&family=Lexend+Deca:wght@100;200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --Brightorange: hsl(31, 77%, 52%);
+  --Darkcyan: hsl(184, 100%, 22%);
+  --Verydarkcyan: hsl(179, 100%, 13%);
+  --Transparentwhite: hsla(0, 0%, 100%, 0.75);
+  --Verylightgray: hsl(0, 0%, 95%);
+}
+.first {
+  height: 100vh;
+  background-color: var(--Transparentwhite);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main {
+  height: 400px;
+  width: 750px;
+  display: flex;
+}
+.sub-a,
+.sub-b,
+.sub-c {
+  height: 100%;
+  width: 33.33%;
+  background-color: var(--Brightorange);
+  border-radius: 5px 0 0 5px;
+  padding: 35px;
+}
+.sub-a h2,
+.sub-b h2,
+.sub-c h2 {
+  text-transform: uppercase;
+  color: var(--Transparentwhite);
+  padding-top: 20px;
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+}
+.sub-a p,
+.sub-b p,
+.sub-c p {
+  color: var(--Transparentwhite);
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 45px;
+}
+.sub-a a,
+.sub-b a,
+.sub-c a {
+  color: var(--Transparentwhite);
+  font-family: "Lexend Deca", sans-serif;
+  text-transform: capitalize;
+  font-size: 13px;
+  text-decoration: none;
+  padding: 10px 25px;
+  background-color: var(--Transparentwhite);
+  color: var(--Brightorange);
+  border-radius: 50px;
+}
+.sub-b {
+  background-color: var(--Darkcyan);
+  border-radius: 0;
+}
+.sub-b a {
+  color: var(--Darkcyan);
+}
+.sub-c {
+  background-color: var(--Verydarkcyan);
+  border-radius: 0 5px 5px 0;
+}
+.sub-c a {
+  color: var(--Verydarkcyan);
+}
